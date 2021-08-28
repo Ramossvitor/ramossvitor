@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apresentacao {
+    text-align: center;
+    line-height: 380px;
+    color: white;
+}
