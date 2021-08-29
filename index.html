@@ -11,14 +11,7 @@
     <title>Ramossvitor</title>
 </head>
 <body>
-  <script>
-    $('.click-scroll').click(function rolar() {
-    $('html, body').animate({
-        scrollTop: $("#alvo").offset().top
-        }, 2000); // Tempo em ms que a animação irá durar
-});
-  </script>
-        <header>
+        <header id="cabecalho">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">Ramossvitor</a>
@@ -45,6 +38,9 @@
                 </div>
               </nav>
         </header>
+            <a href="#cabecalho" id="topo">
+              <i class="fas fa-arrow-circle-up"></i>
+            </a>
     <div style="background-image: url(images/bg1.jpg);" class="vh-100 parallax img-fluid">
         <div class="h-100 apresentacao" style="background-color: rgba(0, 0, 0, 0.753);">
             <h1 class="apresentacao">Ramossvitor</h1>
