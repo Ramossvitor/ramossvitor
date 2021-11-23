@@ -34,3 +34,12 @@
     width: 300px;
     height: 300px;
 }
+
+#portfolio-div {
+    text-align: center;
+}
+
+.img-portfolio {
+    width: 450px;
+    height: 310px;
+}
