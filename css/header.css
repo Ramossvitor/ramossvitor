@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    position: sticky;
-    width: 100vw;
+    position: relative;
+    max-width: 100vw;
     min-height: 7vh;
     max-height: 7vh;
     background-color: var(--blackblue);
