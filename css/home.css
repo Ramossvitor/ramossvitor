@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import url(colors.css);
+
+#home {
+    z-index: 3;
+    width: 100vw;
+    height: 80vh;
+    background-color: var(--azulescuro);
+}
+
+#title-name {
+    font-size: 2em;
+    margin-top: 0px;
+    color: white;
+}
