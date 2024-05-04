@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+}
+
+header {
+    margin: 0px;
+    margin-bottom: 2vh;
+    padding: 1vh;
+    background-color: blue;
+}
+
+ul#nav-list {
+    margin: 0px;
+}
