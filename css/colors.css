@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 :root {
-    --roxoescuro: #2C0062;
-    --amareloMC: #FCE50A;
-    --roxoclaro: #9616B9;
-    --mostarda: #FFCC1F;
+    --azulescuro: #0A0840;
+    --blackblue: #010326;
+    --azulclaro: #3243A6;
+    --amarelo: #F2D022;
+    --rosa: #F26B76;
 }
