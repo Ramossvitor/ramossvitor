@@ -6,6 +6,13 @@
     <title>Ramossvitor</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/listClickable.js"></script>
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,36 +26,37 @@
         </nav>
     </header>
     <article id="home">
-        <section>
+        <section id="title">
             <h1 id="title-name">Ramossvitor</h1>
-            <span id="title-subtext">Site portfólio de Vitor Silveira Ramos da Silva</span>
+            <span id="title-subtext">Site portfólio de <strong>Vitor Silveira Ramos da Silva</strong></span>
+            <a href="#sobre" rel="next" target="_self" id="aboutme-btn" class="btn">Sobre mim</a>
         </section>
     </article>
     <article id="sobre">
-        <h2>Sobre mim</h2>
+        <h2 id="aboutme-title" class="margin-0">Sobre mim</h2>
         <section>
             <p>Nascido em 2006, estou no momento cursando Ciências da Computação pela <abbr title="Universidade do Vale do Itajaí">Univali</abbr>, tenho experiência com programação desde 2020 e experiência profissional na área desde 2022, além disso, tenho inglês avançado, com certificação de escola de idiomas.</p>
         </section>
         <section>
-            <h3>Linguagens e ferramentas com experiência</h3>
-            <ul>
-                <li>Python</li>
-                <li>Javascript</li>
-                <li>PHP</li>
-                <li>Java <span>(básico)</span></li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Lua</li>
-                <li>Unreal Engine</li>
-                <li>Unity (básico)</li>
-                <li>Blender (básico)</li>
-                <li>WordPress</li>
+            <h3 id="experiencias">Linguagens e ferramentas com experiência</h3>
+            <ul id="experience-list">
+                <li class="experience-item" onclick="useLink('Python')">Python</li>
+                <li class="experience-item" onclick="useLink('Javascript')">Javascript</li>
+                <li class="experience-item" onclick="useLink('PHP')">PHP</li>
+                <li class="experience-item" onclick="useLink('Java')">Java <span>(básico)</span></li>
+                <li class="experience-item" onclick="useLink('HTML')">HTML</li>
+                <li class="experience-item" onclick="useLink('CSS')">CSS</li>
+                <li class="experience-item" onclick="useLink('Lua')">Lua</li>
+                <li class="experience-item" onclick="useLink('UnrealEngine')">Unreal Engine</li>
+                <li class="experience-item" onclick="useLink('Unity')">Unity (básico)</li>
+                <li class="experience-item" onclick="useLink('Blender')">Blender (básico)</li>
+                <li class="experience-item" onclick="useLink('WordPress')">WordPress</li>
             </ul>
         </section>
     </article>
     <article id="certificados">
-        <h2>Certificados</h2>
-        <section>
+        <h2 id="certificados-title" class="margin-0">Certificados</h2>
+        <section id="certificados-grid">
             <img src="img/certificados/certificadoPHP.png" alt="Certificado de curso de PHP com carga horária de 22 horas" class="certificado-img">
             <img src="img/certificados/CertificadoWP-Iniciante.PNG" alt="Certificado de curso de WordPress com carga horária de 12 horas" class="certificado-img">
             <img src="img/certificados/CertificadoWP-Personalizacao.PNG" alt="Certificado de curso de Personalização em WordPress com carga horária de 10 horas" class="certificado-img">
@@ -59,6 +67,7 @@
         <section>
             <a href="https://web.whatsapp.com/send?phone=5548991665006&text=Olá! Vim pelo site e gostaria de entrar em contato com você." rel="author" target="_blank" id="whatsappbtn"></a>
             <a href="https://instagram.com/ramossvitor" rel="author" target="_blank" id="instagrambtn"></a>
+            <a href="https://github.com/Ramossvitor" rel="author" target="_blank" id="githubbtn"></a>
             <a href="mailto:ramossvitor@gmail.com" rel="author" id="emailbtn"></a>
         </section>
     </article>
