@@ -6,10 +6,13 @@ body {
 }
 
 header {
+    position: sticky;
     width: 100vw;
     min-height: 7vh;
     max-height: 7vh;
-    background-color: var(--roxoescuro);
+    background-color: var(--blackblue);
+    box-shadow: 2px 2px 8px var(--blackblue);
+    z-index: 5;
 }
 
 ul#nav-list {
@@ -27,7 +30,7 @@ ul#nav-list {
 }
 
 .nav-link {
-    color: var(--mostarda);
+    color: white;
     padding: 1vh;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,11 +39,11 @@ ul#nav-list {
 }
 
 .nav-link:hover {
-    color: var(--amareloMC);
+    color: var(--rosa);
 }
 
 .nav-item:hover {
     scale: 120%;
-    background-color: #320070;
+    background-color: var(--azulescuro);
     transition: .2s;
 }
