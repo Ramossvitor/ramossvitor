@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(colors.css);
 
+
 footer {
     text-align: center;
     font-family: var(--nunito);
@@ -27,7 +28,7 @@ abbr {
     position: relative;
     z-index: 3;
     max-width: 100vw;
-    height: 70vh;
+    padding-bottom: 35vh;
     background-color: var(--azulescuro);
     box-shadow: 2px 2px 5px #010326;
 }
@@ -58,7 +59,7 @@ abbr {
     margin-top: 12vh;
     background-color: var(--blackblue);
     font-size: 1.8em;
-    width: 15%;
+    width: fit-content;
     transition: .2s;
 }
 
@@ -83,7 +84,7 @@ abbr {
     background-color: var(--rosa);
     color: white;
     font-family: var(--nunito);
-    height: 80vh;
+    padding-bottom: 20vh;
 }
 
 #aboutme-title {
@@ -103,6 +104,7 @@ abbr {
 #experience-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
 }
 
 .experience-item {
@@ -161,7 +163,7 @@ abbr {
 #contato {
     position: relative;
     z-index: 10;
-    height: 45vh;
+    padding-bottom: 5vh;
     background-color: var(--azulclaro);
     color: white;
     font-family: var(--nunito);
@@ -183,10 +185,21 @@ abbr {
     margin-right: 30vw;
 }
 
+@media (min-width: 1300px) {
+    .contact-button {
+        font-size: 8em;
+    }
+}
+
+@media (max-width: 1299px) {
+    .contact-button {
+        font-size: 3em;
+    }
+}
+
 .contact-button {
     text-align: center;
     border-radius: 25px;
-    font-size: 8em;
     transition: .2s;
     color: white;
 }
