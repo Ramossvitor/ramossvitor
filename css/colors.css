@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --azulescuro: #0A0840;
+    --blackblue: #010326;
+    --azulclaro: #3243A6;
+    --amarelo: #F2D022;
+    --rosa: #F26B76;
+    --nunito: "Nunito Sans", sans-serif;
+}
